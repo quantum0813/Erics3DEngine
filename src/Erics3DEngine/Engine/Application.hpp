@@ -19,6 +19,7 @@ class Application {
         void initialize();
         void setScene(Scene * scene);
         void run();
+        GLFWwindow * getWindow();
 
     private:
         int mGLMajor;

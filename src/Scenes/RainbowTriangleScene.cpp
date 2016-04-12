@@ -1,9 +1,9 @@
-#include "../include/TestScene.hpp"
+#include "RainbowTriangleScene.hpp"
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <math.h>
 
-void TestScene::initScene() {
+void RainbowTriangleScene::initScene() {
     // Create a vertex array object
     glGenVertexArrays(1, &mVAO);
     glBindVertexArray(mVAO);
@@ -15,8 +15,8 @@ void TestScene::initScene() {
     glBufferData(GL_ARRAY_BUFFER, sizeof(VERTICES), VERTICES, GL_STATIC_DRAW);
 
     // Create our shader program
-    Shader vs = Shader("/home/eric/ClionProjects/Erics3DEngine/shaders/test.vs.glsl", Shader::ShaderType::VERTEX);
-    Shader fs = Shader("/home/eric/ClionProjects/Erics3DEngine/shaders/test.fs.glsl", Shader::ShaderType::FRAGMENT);
+    Shader vs = Shader("/home/eric/ClionProjects/Erics3DEngine/shaders/rainbow_tri.vs.glsl", Shader::ShaderType::VERTEX);
+    Shader fs = Shader("/home/eric/ClionProjects/Erics3DEngine/shaders/rainbow_tri.fs.glsl", Shader::ShaderType::FRAGMENT);
     vs.compile();
     fs.compile();
 
@@ -37,11 +37,11 @@ void TestScene::initScene() {
     glVertexAttribPointer(mColAttrib, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void *)(2 * sizeof(float)));
 }
 
-TestScene::~TestScene() {
+RainbowTriangleScene::~RainbowTriangleScene() {
     delete mDefaultProgram;
 }
 
-void TestScene::render() {
+void RainbowTriangleScene::render() {
     // Calculate new triangle alpha for current frame
     GLint uniColor = glGetUniformLocation(mDefaultProgram->getProgramHandle(), "vertexColor");
     float time = (float)glfwGetTime();
@@ -56,7 +56,7 @@ void TestScene::render() {
     glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 
-void TestScene::cleanup() {
+void RainbowTriangleScene::cleanup() {
     glDeleteProgram(mDefaultProgram->getProgramHandle());
     for (std::vector<Shader>::iterator it = mDefaultProgram->getShaders().begin(); it != mDefaultProgram->getShaders().end(); it++)
         glDeleteShader(it->getShaderHandle());

@@ -1,5 +1,6 @@
 #include <GL/glew.h>
-#include "../include/Application.hpp"
+#include "Application.hpp"
+#include "Texture.hpp"
 
 Application::Application(int windowWidth, int windowHeight, std::string title, bool enableLogging) :
     mWindowWidth(windowWidth), mWindowHeight(windowHeight), mWindowTitle(title), mLoggingEnabled(enableLogging) { }
@@ -67,11 +68,11 @@ void Application::initialize() {
 
     glfwSetInputMode(mWindow, GLFW_STICKY_KEYS, GL_TRUE);
 
-    glClearColor(0.3f, 0.3f, 0.3f, 0.0f);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    glEnable(GL_BLEND);
+    //glClearColor(0.3f, 0.3f, 0.3f, 0.0f);
+    //glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    //glEnable(GL_BLEND);
     glEnable(GL_DEBUG_OUTPUT);
-    glDisable(GL_DEPTH_TEST);
+    //glDisable(GL_DEPTH_TEST);
 
     mCurrentScene->initScene();
 }
@@ -82,7 +83,7 @@ void Application::setScene(Scene * scene) {
 
 void Application::run() {
     while (isRunning()) {
-        glClear(GL_COLOR_BUFFER_BIT);
+        //glClear(GL_COLOR_BUFFER_BIT);
         mCurrentScene->render();
         glfwSwapBuffers(mWindow);
         glfwPollEvents();
@@ -101,4 +102,8 @@ void Application::setGLVersion(int major, int minor) {
 
 void Application::errorCallback(int error, const char * desc) {
     std::cout << "An error has occurred:\n\tError Code: " << error << "\n\tDescription: " << desc << std::endl;
+}
+
+GLFWwindow * Application::getWindow() {
+    return mWindow;
 }

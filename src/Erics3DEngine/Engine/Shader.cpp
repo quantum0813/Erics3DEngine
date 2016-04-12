@@ -1,5 +1,5 @@
 #include <vector>
-#include "../include/Shader.hpp"
+#include "Shader.hpp"
 
 Shader::Shader(std::string filename, ShaderType shaderType) :
        mFilename(filename), mShaderType(shaderType), mShaderHandle(0), mCompiled(false) { }

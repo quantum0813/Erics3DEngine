@@ -1,14 +1,14 @@
 #ifndef ERICS3DENGINE_TESTSCENE_HPP
 #define ERICS3DENGINE_TESTSCENE_HPP
 
-#include "Scene.hpp"
-#include "Shader.hpp"
-#include "Program.hpp"
+#include "../Erics3DEngine/Engine/Scene.hpp"
+#include "../Erics3DEngine/Engine/Shader.hpp"
+#include "../Erics3DEngine/Engine/Program.hpp"
 
-class TestScene : public Scene {
+class RainbowTriangleScene : public Scene {
     public:
-        TestScene() : Scene() {}
-        ~TestScene();
+        RainbowTriangleScene() : Scene() {}
+        ~RainbowTriangleScene();
         void initScene();
         void render();
         void cleanup();

@@ -15,7 +15,20 @@ include_directories(${GLFW_INCLUDE_DIRS})
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(LIBS ${OPENGL_LIBRARIES} ${GLEW_LIBRARIES} ${GLFW_LIBRARIES})
 
-set(SOURCE_FILES main.cpp src/Shader.cpp src/Program.cpp src/Application.cpp src/TestScene.cpp)
+set(SOURCE_FILES
+    src/main.cpp
+    src/Erics3DEngine/Engine/Texture.cpp
+    src/Erics3DEngine/Engine/Shader.cpp
+    src/Erics3DEngine/Engine/Program.cpp
+    src/Erics3DEngine/Engine/Application.cpp
+    src/Erics3DEngine/Engine/Geometry/Shape.cpp
+    src/Erics3DEngine/Engine/Geometry/Cube.cpp
+    src/Erics3DEngine/Engine/Geometry/Sphere.cpp
+    src/Erics3DEngine/Engine/Geometry/Plane.cpp
+    src/Erics3DEngine/Engine/Geometry/TruncatedCone.cpp
+    src/Scenes/RainbowTriangleScene.cpp
+    src/Scenes/TextureSampleScene.cpp
+)
 add_executable(Erics3DEngine ${SOURCE_FILES})
 
 link_libraries(${GLFW_LIBRARY_DIRS})

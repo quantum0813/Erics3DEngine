@@ -1,4 +1,4 @@
-#include "../include/Program.hpp"
+#include "Program.hpp"
 
 Program::Program(std::vector<Shader> shaders) : mShaders(shaders) {
     if (mShaders.size() == 0)
