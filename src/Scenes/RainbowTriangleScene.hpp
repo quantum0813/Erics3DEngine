@@ -1,17 +1,24 @@
 #ifndef ERICS3DENGINE_TESTSCENE_HPP
 #define ERICS3DENGINE_TESTSCENE_HPP
 
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
 #include "../Erics3DEngine/Engine/Scene.hpp"
 #include "../Erics3DEngine/Engine/Shader.hpp"
 #include "../Erics3DEngine/Engine/Program.hpp"
 
 class RainbowTriangleScene : public Scene {
     public:
-        RainbowTriangleScene() : Scene() {}
+        RainbowTriangleScene() : Scene(nullptr) {}
         ~RainbowTriangleScene();
+
         void initScene();
         void render();
         void cleanup();
+
+        void onKeyPress(GLFWwindow * window, int key, int scanCode, int action, int mode);
+        void onMouseMove(GLFWwindow * window, double xPos, double yPos);
+        void onMouseWheelScroll(GLFWwindow * window, double xOffset, double yOffset);
 
     private:
         GLuint mVAO;

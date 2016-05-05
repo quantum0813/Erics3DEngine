@@ -1,6 +1,4 @@
 #include "RainbowTriangleScene.hpp"
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
 #include <math.h>
 
 void RainbowTriangleScene::initScene() {
@@ -63,3 +61,7 @@ void RainbowTriangleScene::cleanup() {
     glDeleteBuffers(1, &mVBO);
     glDeleteVertexArrays(1, &mVAO);
 }
+
+void RainbowTriangleScene::onKeyPress(GLFWwindow * window, int key, int scanCode, int action, int mode) { }
+void RainbowTriangleScene::onMouseMove(GLFWwindow * window, double xPos, double yPos) { }
+void RainbowTriangleScene::onMouseWheelScroll(GLFWwindow * window, double xOffset, double yOffset) { }

@@ -12,35 +12,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9500cd92-61de-45ca-a995-4226ddd7af68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Debug.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Geometry.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Application.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Exception.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Exception.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Program.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Scene.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Scene.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Shader.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/TestScene.hpp" afterPath="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shaders/test.fs.glsl" afterPath="$PROJECT_DIR$/shaders/rainbow_tri.fs.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shaders/test.vs.glsl" afterPath="$PROJECT_DIR$/shaders/rainbow_tri.vs.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Application.cpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Program.cpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Shader.cpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TestScene.cpp" afterPath="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/arm_dif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/arm_showroom_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/arm_showroom_refl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/arm_showroom_spec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/body_dif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/body_showroom_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/body_showroom_refl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/body_showroom_spec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/cell_arm_alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/cell_body_alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/cell_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/cell_hand_alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/cell_helmet_alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/cell_leg_alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/textures/cp437_9x16.ktx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/front.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/glass_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/glass_dif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/glass_refl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/textures/grass_bend.ktx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/textures/grass_color.ktx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/textures/grass_length.ktx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/textures/grass_orientation.ktx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/hand_dif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/hand_showroom_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/hand_showroom_refl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/hand_showroom_spec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/helmet_diff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/helmet_showroom_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/helmet_showroom_refl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/helmet_showroom_spec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/leg_dif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/leg_showroom_ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/leg_showroom_refl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/leg_showroom_spec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/textures/star.ktx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Camera.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Camera.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/CubicBezierScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/CubicBezierScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/FindLeapMotion.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/FlockingScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/FlockingScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/GrassScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/GrassScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Input.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Input.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/JuliaScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/JuliaScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/LeapListener.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/LeapListener.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/LeapMotionScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/LeapMotionScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Model/Mesh.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Model/Mesh.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Model/Model.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Model/Model.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/OMPParticlesScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/OMPParticlesScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/PhysicsScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/PhysicsScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/StarfieldScene.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/StarfieldScene.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/TextOverlay.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/TextOverlay.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/cubicBezier.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/cubicBezier.tcs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/cubicBezier.tes.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/cubicBezier.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/default.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/default.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/drawCtrlPts.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/drawCtrlPts.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/flocking.cs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/flocking.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/flocking.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/grass.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/grass.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/julia.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/julia.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/leapScene.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/leapScene.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/nanosuit.mtl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/data/nanosuit/nanosuit.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/starfield.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/starfield.vs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/text.fs.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shaders/text.vs.glsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.cpp" afterPath="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp" afterPath="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Scene.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Scene.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.hpp" afterPath="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp" afterPath="$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp" afterPath="$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Erics3DEngine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,162 +126,35 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Sphere.hpp" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.hpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="27" column="29" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="29" />
-                    <folding>
-                      <element signature="e#67#87#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Sphere.cpp" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-                    <folding>
-                      <element signature="e#0#21#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Plane.cpp" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.8259494">
-                    <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="112" selection-end-column="38" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="PRINT_LINE_NUMBERS" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop/exportToHTML" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Erics3DEngine" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextureSampleScene.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-              <folding>
-                <element signature="e#91#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Geometry.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Geometry.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#71#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextureSampleScene.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11904762">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruncatedCone.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-              <folding>
-                <marker date="1460430568920" expanded="true" signature="90:143" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruncatedCone.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plane.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="texture.vs.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shaders/texture.vs.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shape.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.29453015">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flocking.cs.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shaders/flocking.cs.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,8 +164,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="GLSL Shader" />
         <option value="Html5" />
+        <option value="GLSL Shader" />
       </list>
     </option>
   </component>
@@ -231,57 +175,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FindGLFW.cmake" />
-        <option value="$PROJECT_DIR$/include/Application.hpp" />
-        <option value="$PROJECT_DIR$/src/Shader.cpp" />
-        <option value="$PROJECT_DIR$/include/Shader.hpp" />
-        <option value="$PROJECT_DIR$/include/Scene.hpp" />
-        <option value="$PROJECT_DIR$/include/Program.hpp" />
-        <option value="$PROJECT_DIR$/src/Application.cpp" />
-        <option value="$PROJECT_DIR$/src/Program.cpp" />
-        <option value="$PROJECT_DIR$/include/TestScene.hpp" />
-        <option value="$PROJECT_DIR$/src/TestScene.cpp" />
-        <option value="$PROJECT_DIR$/shaders/test.vs.glsl" />
-        <option value="$PROJECT_DIR$/shaders/test.fs.glsl" />
-        <option value="$PROJECT_DIR$/include/Texture.hpp" />
-        <option value="$PROJECT_DIR$/src/Texture.cpp" />
-        <option value="$PROJECT_DIR$/src/scenes/TestScene.hpp" />
-        <option value="$PROJECT_DIR$/src/scenes/TestScene.cpp" />
-        <option value="$PROJECT_DIR$/src/scenes/ColorTriangleScene.cpp" />
-        <option value="$PROJECT_DIR$/src/scenes/RainbowTriangle.cpp" />
-        <option value="$PROJECT_DIR$/src/scenes/RainbowTriangleScene.cpp" />
-        <option value="$PROJECT_DIR$/src/engine/Application.cpp" />
-        <option value="$PROJECT_DIR$/src/engine/Program.cpp" />
-        <option value="$PROJECT_DIR$/src/engine/Shader.cpp" />
-        <option value="$PROJECT_DIR$/src/engine/Texture.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/src/scenes/RainbowTriangleScene.hpp" />
-        <option value="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp" />
-        <option value="$PROJECT_DIR$/cmake/FindGLFW.cmake" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Debug.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Camera.cpp" />
+        <option value="$PROJECT_DIR$/shaders/leapScene.vs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/leapScene.fs.glsl" />
+        <option value="$PROJECT_DIR$/src/Scenes/LeapMotionScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Scene.cpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Scene.hpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Camera.hpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Camera.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/PhysicsScene.hpp" />
+        <option value="$PROJECT_DIR$/shaders/flocking.vs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/flocking.fs.glsl" />
+        <option value="$PROJECT_DIR$/src/Scenes/PhysicsScene.cpp" />
         <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Primitives.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.hpp.html" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.cpp" />
-        <option value="$PROJECT_DIR$/shaders/texture.fs.glsl" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.cpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.cpp" />
-        <option value="$PROJECT_DIR$/shaders/texture.vs.glsl" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.cpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.hpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Geometry.hpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/GrassScene.hpp" />
+        <option value="$PROJECT_DIR$/shaders/grass.fs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/grass.vs.glsl" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/TextOverlay.hpp" />
+        <option value="$PROJECT_DIR$/shaders/text.vs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/text.fs.glsl" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp" />
+        <option value="$PROJECT_DIR$/shaders/cubicBezier.vs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/cubicBezier.fs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/cubicBezier.tcs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/cubicBezier.tes.glsl" />
+        <option value="$PROJECT_DIR$/shaders/drawCtrlPts.vs.gls.glsl" />
+        <option value="$PROJECT_DIR$/shaders/drawCtrlPts.fs.glsl" />
+        <option value="$PROJECT_DIR$/src/Scenes/CubicBezierScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/TextOverlay.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/CubicBezierScene.hpp" />
+        <option value="$PROJECT_DIR$/shaders/starfield.vs.glsl" />
+        <option value="$PROJECT_DIR$/shaders/starfield.fs.glsl" />
+        <option value="$PROJECT_DIR$/src/Scenes/GrassScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/StarfieldScene.hpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/StarfieldScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/JuliaScene.hpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/FlockingScene.hpp" />
+        <option value="$PROJECT_DIR$/shaders/flocking.cs.glsl" />
+        <option value="$PROJECT_DIR$/src/Scenes/FlockingScene.cpp" />
         <option value="$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp" />
-        <option value="$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.cpp" />
         <option value="$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/CubeScene.hpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.cpp" />
+        <option value="$PROJECT_DIR$/shaders/julia.vs.glsl" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/shaders/julia.fs.glsl" />
+        <option value="$PROJECT_DIR$/src/Scenes/JuliaScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/OMPParticlesScene.hpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/OMPParticlesScene.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -296,7 +240,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="918" />
+    <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -382,87 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geometry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="shaders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Erics3DEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmake" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,14 +338,19 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Scenes/data/textures" />
+      <recent name="$PROJECT_DIR$/src/Scenes/data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Erics3DEngine/Engine" />
+      <recent name="$PROJECT_DIR$/src/Erics3DEngine/Engine/Model" />
       <recent name="$PROJECT_DIR$/src/Erics3DEngine" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/engine" />
-      <recent name="$PROJECT_DIR$/src/scenes" />
-      <recent name="$PROJECT_DIR$/cmake" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Erics3DEngine">
@@ -525,20 +394,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="918" height="1056" extended-state="4" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18435754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14410481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32403433" sideWeight="0.49944752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708332" sideWeight="0.49944752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.49364161" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39806867" sideWeight="0.5779005" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2918455" sideWeight="0.41878453" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22604166" sideWeight="0.41878453" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39806867" sideWeight="0.42209944" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3530043" sideWeight="0.42209944" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -547,6 +416,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49563318" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708332" sideWeight="0.49944752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.49364161" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39806867" sideWeight="0.5779005" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24791667" sideWeight="0.41878453" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14410481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49563318" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3530043" sideWeight="0.42209944" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -577,16 +466,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp</url>
-          <line>103</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp</url>
-          <line>40</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.cpp</url>
           <line>129</line>
           <option name="timeStamp" value="17" />
@@ -612,241 +491,148 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.cpp</url>
-          <line>26</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.cpp</url>
           <line>4</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Model/Model.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Scenes/LeapMotionScene.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/TextOverlay.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Scenes/PhysicsScene.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="28" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/Scenes/PhysicsScene.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$USER_HOME$/Documents/sb7code/include/sb7ktx.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.hpp">
+    <entry file="file://$USER_HOME$/Documents/sb7code/src/sb7/sb7ktx.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp">
+    <entry file="file:///usr/local/include/glm/gtc/matrix_transform.inl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/shaders/drawCtrlPts.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/shaders/drawCtrlPts.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/TextOverlay.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="25" column="128" selection-start-line="25" selection-start-column="128" selection-end-line="25" selection-end-column="128" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp">
+    <entry file="file://$PROJECT_DIR$/shaders/text.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.cpp">
+    <entry file="file://$PROJECT_DIR$/shaders/cubicBezier.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/shaders/cubicBezier.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/shaders/cubicBezier.tcs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.hpp">
+    <entry file="file://$PROJECT_DIR$/shaders/starfield.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/ThirdParty/stb_image/stb_image.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1195" column="0" selection-start-line="1195" selection-start-column="0" selection-end-line="1195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake/FindGLFW.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="233" column="6" selection-start-line="233" selection-start-column="6" selection-end-line="233" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/rainbow_tri.vs.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/rainbow_tri.fs.glsl">
+    <entry file="file://$PROJECT_DIR$/shaders/starfield.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Shader.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03453689">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/GL/glew.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.954474">
-          <caret line="280" column="14" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="e#56#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,50 +646,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Debug.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Program.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Exception.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Scene.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Texture.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Scenes/CubicBezierScene.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/GrassScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/flocking.fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/FlockingScene.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046801873">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/CubicBezierScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22468354">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/StarfieldScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/StarfieldScene.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/RainbowTriangleScene.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43137255">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
-            <element signature="e#63#83#0" expanded="true" />
+            <element signature="e#73#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Cube.cpp">
+    <entry file="file://$PROJECT_DIR$/shaders/rainbow_tri.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84177214">
-          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="140" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/rainbow_tri.fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39366516">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/julia.vs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5625943">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/julia.fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7375566">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/JuliaScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/OMPParticlesScene.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60633487">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <element signature="e#89#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/OMPParticlesScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#207#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#191#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/JuliaScene.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0558069">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/grass.vs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/grass.fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25108224">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/flocking.vs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9729437">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/default.vs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/default.fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/cubicBezier.tes.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3495671">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -911,7 +880,7 @@
     <entry file="file://$PROJECT_DIR$/shaders/texture.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -919,117 +888,41 @@
     <entry file="file://$PROJECT_DIR$/shaders/texture.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Shape.cpp">
+    <entry file="file://$PROJECT_DIR$/shaders/text.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Scenes/FlockingScene.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <marker date="1460430568920" expanded="true" signature="90:143" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="29" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#67#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Sphere.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Plane.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8259494">
-          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="112" selection-end-column="38" />
+        <state vertical-scroll-proportion="1.56414">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/shaders/flocking.cs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/Geometry.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#71#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="e#91#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erics3DEngine/Engine/Geometry/TruncatedCone.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/TextureSampleScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11904762">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.29453015">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
